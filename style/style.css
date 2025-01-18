@@ -12,48 +12,48 @@
   }
   /* shared style */
 
-.section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
+  .section-title{
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+  .display-flex{
+    display: flex;
   }
-.display-flex{
-  display: flex;
-}
-/* dark 2 */
-.text-gray{
-  color: #424242;
-}
-.text-primary{
-  color: rgb(255, 144, 14);
-}
+  /* dark 2 */
+  .text-gray{
+    color: #424242;
+  }
+  .text-primary{
+    color: rgb(255, 144, 14);
+  }
 
-/* dark 3 */
-/* text light gray */
-.text-light-gray{
-  color: #727272;
+  /* dark 3 */
+  /* text light gray */
+  .text-light-gray{
+    color: #727272;
 
-}
-.bg-light{
-  background-color: rgba(255, 144, 14, 0.1);
-}
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
 
-.btn-primary{
-  background-color: rgb(255, 144, 14);
-  color: white;
-  padding: 21px 25px;
-  font-size: 1.25rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 8px;
-}
-main{
-  max-width: 1440px;
-  margin: 0 auto;
-}
+  .btn-primary{
+    background-color: rgb(255, 144, 14);
+    color: white;
+    padding: 21px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+  }
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
-main > section{
-  margin-top: 130px;
-}
+  main > section{
+    margin-top: 130px;
+  }
 
 
 /* header styles */
@@ -114,16 +114,49 @@ main > section{
     gap: 24px;
   }
  
-.our-features{
-  max-width: 530px;
-  margin-left: 130px;
-}
+  .our-features{
+    max-width: 530px;
+    margin-left: 130px;
+  }
 
 
-#quick-list{
-  font-weight: 500;
+  #quick-list{
+    font-weight: 500;
 
-}
+  }
+
+/* some facts related style */
+  .facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .fact-card{
+    border: 2px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    width: 241px;
+    height: 241px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .facts-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .facts-name{
+    font-size: 1.25rem;
+    font-weight: 600px;
+    margin-top: 10px;
+  }
+  .facts-discription{
+    width: 540px;
+  }
+
 
   /* responsive media quary */
   @media screen and (max-width: 576px) {
